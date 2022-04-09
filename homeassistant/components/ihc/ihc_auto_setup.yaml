@@ -94,6 +94,10 @@ light:
   - xpath: './/product_airlink[@product_identifier="_0x4303"]'
     node: "airlink_dimming"
     dimmable: true
+  # Wireless four channel switch
+  - xpath: './/product_airlink[@product_identifier="_0x4102"]'
+    node: "airlink_input"
+    dimmable: true
 
 sensor:
   # Temperature sensor
